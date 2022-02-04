@@ -1,7 +1,6 @@
 const CosmosClient = require("@azure/cosmos").CosmosClient;
-const endpoint = "https://funkyapiv5.documents.azure.com:443/";
-const key =
-  "OQIVzePZcMiCUVbGCP90Q2CVuHECCK8hu1uS3xrSi28QdSHEagQ7cKOCdMNqzqe13PeV8Y2sWM5WOMQ1OIAt6w==";
+const endpoint = "get this from azure cosmos db";
+const key = "get this from azure cosmos db";
 const client = new CosmosClient({ endpoint, key });
 const databaseId = "ScoreDB";
 const containerId = "Scores";
